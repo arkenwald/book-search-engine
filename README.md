@@ -1,43 +1,36 @@
-Book-Search-Engine
+# Book-Search-Engine
+
 Challenge 21 MERN
 
 Description
 
 This project is for self-improvement and practice in order to provide myself with confidence within this industry.
 
-This back end for an e-commerce site was created by modifying starter code given to us.
+We used starter code to refactor Google Books API search engine (RESTful API) to be a GraphQL API built with Apollo.
 
-Express.js API and Sequelize was used to interact with a MySQL database.
+This app uses MERN stack with React front end, MongoDB Database as well as Node.js/Express.js server and API.
 
-Installation
+Installation & Usage
 
 To install the project:
 
-npm i
+clone repo (with GitHub link below)
 
-mysql source schema.sql
+install node modules by "npm i" in terminal
 
-npm run seed
-
-npm start
-
-Usage
-
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-
-THEN the data for each of these routes is displayed in a formatted JSON
-
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-
-THEN I am able to successfully create, update, and delete data in my database
+npm run develop to start application
 
 GitHub Repository:
 
-https://github.com/arkenwald/ORM-E-Commerce-Back-End
+https://github.com/arkenwald/book-search-engine
 
-Video Walkthrough:
+Deployed URL:
 
-https://drive.google.com/file/d/1ptA0LpeVrfBAq-DGmXkPAiK6RuCcYHFr/view
+https://book-search-engine-mern-mfjz.onrender.com [inprogress]
+
+Screenshots:
+
+Will Update Once Deployed!
 
 Credits
 
@@ -45,21 +38,14 @@ Collaborated with:
 
 https://github.com/pnguyen412
 
-Website Resources:
+https://github.com/bahossdev
 
-https://www.npmjs.com/package/dotenv
-
-https://sequelize.org/docs/v6/core-concepts/model-querying-finders/
-
-https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/
-
-https://sequelize.org/docs/v6/core-concepts/assocs/
 
 License
 
 MIT License
 
-Copyright (c) 2023, Peter Tong
+Copyright (c) 2024, Peter Tong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
